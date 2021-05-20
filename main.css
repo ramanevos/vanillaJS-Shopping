@@ -60,6 +60,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+
   align-items: center;
 }
 
@@ -78,7 +79,7 @@ body {
   background-color: #F9F8FA;
   display: grid;
   grid-template-rows: auto 1fr;
-  max-height: 80vh;
+  max-height: 100vh;
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .1)
 }
 
@@ -178,6 +179,7 @@ button {
   display: grid;
   grid-gap: var(--base-padding);
   overflow: auto;
+  height:100%;
   padding: 1rem 2rem 2rem 2rem;
 }
 
@@ -310,7 +312,7 @@ button {
 
 .cart__item {
   display: grid;
-  grid-template-columns: 6rem 1fr 5rem 3rem 3rem 4rem 3rem;
+  grid-template-columns: 6rem 1fr 5rem 3rem  3rem 4rem 3rem 3rem;
   grid-column-gap: 1rem;
   justify-content: space-between;
   align-items: center;  
